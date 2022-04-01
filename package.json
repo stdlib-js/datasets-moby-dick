@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/datasets-moby-dick",
+  "version": "0.0.0",
+  "description": "The text of Moby Dick by Herman Melville.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-moby-dick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "book",
+    "novel",
+    "text",
+    "moby dick",
+    "whale",
+    "herman melville",
+    "corpus",
+    "nlp",
+    "english",
+    "en"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
