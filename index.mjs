@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-function e(e){if(e.__esModule)return e;var r=Object.defineProperty({},"__esModule",{value:!0});return Object.keys(e).forEach((function(t){var n=Object.getOwnPropertyDescriptor(e,t);Object.defineProperty(r,t,n.get?n:{enumerable:!0,get:function(){return e[t]}})})),r}var r=require("path").join,t=require("path").resolve,n=require("@stdlib/fs-read-json").sync,o=require("@stdlib/string-replace"),i=require("./../data/file_list.json"),a=t("/home/runner/work/datasets-moby-dick/datasets-moby-dick/lib","..","data"),u={encoding:"utf8"};module.exports=function(){var e,t,s,c;for(t=new Array(139),c=0;c<t.length;c++){if(e=r(a,o(i[c],"txt","json")),(s=n(e,u))instanceof Error)throw s;t[c]=s}return t};var s=e(Object.freeze({__proto__:null}));export{s as default};
-//# sourceMappingURL=index.mjs.map
