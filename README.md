@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@deno/mod.js';
+import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@v0.2.0-deno/mod.js';
 ```
 
 #### text()
@@ -79,7 +79,7 @@ Each `array` element has the following fields:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@deno/mod.js';
+import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@v0.2.0-deno/mod.js';
 
 var data;
 var i;
