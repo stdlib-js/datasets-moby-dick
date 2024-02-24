@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-moby-dick/tags). For example,
+
+```javascript
 import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@v0.2.1-deno/mod.js';
 ```
 
@@ -79,7 +84,7 @@ Each `array` element has the following fields:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@v0.2.1-deno/mod.js';
+import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@deno/mod.js';
 
 var data;
 var i;
