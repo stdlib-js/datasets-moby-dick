@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@esm/index.mjs';
+import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@v0.2.2-esm/index.mjs';
 ```
 
 #### text()
@@ -84,7 +84,7 @@ Each `array` element has the following fields:
 <body>
 <script type="module">
 
-import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@esm/index.mjs';
+import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@v0.2.2-esm/index.mjs';
 
 var data;
 var i;
