@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-moby-dick/tags). For example,
+
+```javascript
 import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@v0.2.3-esm/index.mjs';
 ```
 
@@ -84,7 +89,7 @@ Each `array` element has the following fields:
 <body>
 <script type="module">
 
-import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@v0.2.3-esm/index.mjs';
+import text from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-moby-dick@esm/index.mjs';
 
 var data;
 var i;
