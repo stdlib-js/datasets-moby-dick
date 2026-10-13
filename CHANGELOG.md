@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-16)
+## Unreleased (2026-10-13)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#16095](https://github.com/stdlib-js/stdlib/issues/16095)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`b3f179a`](https://github.com/stdlib-js/stdlib/commit/b3f179aa1cd774303f83661434c5e459e1199558) - **chore:** fix EditorConfig lint errors [(#16096)](https://github.com/stdlib-js/stdlib/pull/16096) _(by Aykut Güney)_
 -   [`dca1108`](https://github.com/stdlib-js/stdlib/commit/dca1108ecd60ec63ce4dcb4305000c2390c93c49) - **chore:** use `format` for error messages in `datasets/*` build scripts [(#12157)](https://github.com/stdlib-js/stdlib/pull/12157) _(by Philipp Burckhardt)_
 -   [`a297305`](https://github.com/stdlib-js/stdlib/commit/a2973058c05b9d01c7045190a06568d4fefdf5c5) - **bench:** refactor to use string interpolation in `datasets` [(#11618)](https://github.com/stdlib-js/stdlib/pull/11618) _(by Karan Anand)_
 -   [`f7191c0`](https://github.com/stdlib-js/stdlib/commit/f7191c093f0607ad6de9b7a21612f36bb3a84d90) - **chore:** use relative paths and remove trailing slashes in require paths _(by Philipp Burckhardt)_
@@ -26,8 +39,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Aykut Güney
 -   Karan Anand
 -   Philipp Burckhardt
 
